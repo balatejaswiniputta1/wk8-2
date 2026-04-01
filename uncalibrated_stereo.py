@@ -219,8 +219,6 @@ annotated = img1.copy()
 cv2.circle(annotated, left_pt, 8, (0, 0, 255), -1)
 
 # Bounding box around approximate sanitizer region
-# Adjust if needed, but this should work reasonably for your image
-# Better bounding box around sanitizer
 x1, y1, x2, y2 = 600, 330, 910, 910
 cv2.rectangle(annotated, (x1, y1), (x2, y2), (0, 255, 0), 4)
 
@@ -267,7 +265,7 @@ cv2.putText(
 cv2.imwrite("annotated_result.jpg", annotated)
 
 # =========================================================
-# OPTIONAL: EPIPOLAR LINES VISUALIZATION
+#  EPIPOLAR LINES VISUALIZATION
 # =========================================================
 def draw_epilines(img1, img2, lines, pts1, pts2):
     img1_copy = img1.copy()
