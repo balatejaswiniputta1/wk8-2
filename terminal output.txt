@@ -1,0 +1,52 @@
+C:\Users\Bala Tejaswini Putta\Desktop\SPRING 2026\CV\wk8-2>python uncalibrated_stereo.py
+Left image shape : (1200, 1600, 3)
+Right image shape: (1200, 1600, 3)
+Total keypoints in left image  : 2145
+Total keypoints in right image : 2322
+Good matches after ratio test  : 511
+
+Number of inlier matches: 399
+
+Fundamental Matrix (F):
+[[-1.63881157e-07 -3.78492961e-06  3.39248467e-03]
+ [ 3.75516328e-06 -1.73580236e-08 -2.66312402e-03]
+ [-3.37814609e-03  1.62838698e-03  1.00000000e+00]]
+
+Essential Matrix (E):
+[[-0.25606431 -5.91395252  1.23802747]
+ [ 5.86744263 -0.02712191  0.41323974]
+ [-1.5701913  -1.76246441  0.26520798]]
+
+Recovered pose inliers: 396
+
+Rotation Matrix (R):
+[[ 0.97709776 -0.03942474 -0.20910682]
+ [ 0.04757546  0.99828571  0.03409126]
+ [ 0.20740431 -0.04325885  0.97729838]]
+
+Translation direction (t):
+[[-0.27847055]
+ [ 0.23692924]
+ [ 0.93076242]]
+
+Now select the SAME point on the bottle in both images.
+Recommended: center of cap, or a clear point on the label.
+Clicked displayed point: (437, 471)
+Clicked displayed point: (257, 505)
+
+Selected point in original left image : (699, 753)
+Selected point in original right image: (411, 808)
+
+Disparity (pixels): 288.00
+Estimated Distance from camera setup: 0.2170 m
+Ground Truth Distance: 0.2170 m
+Absolute Error: 0.0000 m
+Percentage Error: 0.01%
+
+Saved files:
+1. feature_matches.jpg
+2. annotated_result.jpg
+3. epilines_left.jpg (if generated)
+4. epilines_right.jpg (if generated)
+
+C:\Users\Bala Tejaswini Putta\Desktop\SPRING 2026\CV\wk8-2>
